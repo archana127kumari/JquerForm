@@ -1,0 +1,276 @@
+body{
+    background-color: rgb(216, 216, 216);
+    background-image: linear-gradient(to right, rgba(123, 43, 150, 0.52),rgba(24, 117, 19, 0.73)),
+    url('employee.jpg');;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+.info{
+    height: 50px;
+    background-color: aquamarine;
+    border-left: 100px rgb(36, 55, 55);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60;
+    margin-top: 100px;
+}
+form{
+    background-color: white;
+    align-items: center;
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 50px;
+    /* background-image: url(backgr.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+
+.form-body{
+    padding: 20px 20px 20px 20px;
+    align-content: center;
+    margin-left: 120px;
+    
+    /* margin-top: 100px; */
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.form-main-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-text-error{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.Ftext{
+    height:30px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 77px;
+}
+
+
+.Ftext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+.Ltext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.Ltext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+
+.Etext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 115px;
+}
+
+.Etext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+
+.Ptext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 89px;
+}
+
+.Ptext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+
+.Cptext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.Cptext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+
+.Dtext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 63px;
+}
+
+.Dtext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+
+.Phtext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 48px;
+}
+
+.Phtext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+
+.Htext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 105px;
+}
+
+.Htext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+
+.Wtext{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 103px;
+}
+
+.Wtext:hover{
+    border-color: green;
+    background-color: rgb(195, 255, 195);
+}
+.form-right{
+    width: 400px;
+}
+
+.error-message{
+    color:red;
+    margin-left: 20%;
+}
+
+.success{
+    color: green;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.error{
+    color: red;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+
+
+
+.formTable{
+    margin-left: 200px;
+    margin-top: 100px;
+    
+
+  
+    
+}
+
+
+.formValuesTable{
+    margin-left: 40px;
+    padding: 50px 50px 50px 50px;
+}
+
+
+span{
+    color: red;
+}
+
+table{
+    width: 50%;
+    height: 20%;
+    border-collapse: collapse;
+}
+
+
+th{
+    height: 50px;
+    background-color: bisque;
+    font-size: 30px;
+}
+
+td {
+   height: 50px;
+   vertical-align: bottom;
+}
+
+
+tr:hover {background-color: coral;}
+
+
+.form-gender-left{
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.phoneText{
+    font-style: italic;
+    font-size: 13px;
+}
+
+.fieldText{
+    font-weight: 500;
+
+}
+
+
+/* ////////////////////////////////////////////////Google Font//////////////////////////////////////////////// */
+
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  

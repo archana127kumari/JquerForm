@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+</head>
+<body>
+<!-- 
+  <div class="info">
+    <h2>By Submitting the form you are allowing us to store your information</h2>
+  </div> -->
+
+
+ 
+<form id="registrationForm">
+    <h1>R E G I S T R A T I O N</h1>
+
+
+    <div class="form-body">
+
+    <!-- First   Name -->
+
+    <div class="form-main-input">
+    <div class="form-left">
+    <b>First Name:<span>*</span></b>
+    </div>
+    <div class="form-text-error">
+    <div class="form-right">
+     <input type="text" id="firstName" placeholder="First Name" class="Ftext"><br>
+     <div id="firstNameError" class="error-message"></div><br>
+
+    </div>
+
+     </div>
+     </div>
+ 
+  <!-- Last Name -->
+  <div class="form-main-input">
+
+  <div class="form-left">
+  <b>Last Name:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <div class="form-right">
+  <input type="text" id="lastName" name="lastName" placeholder="Last name" class="Ltext" ><br>
+  <div id="lastNameError" class="error-message"></div><br>
+
+  </div>
+  </div>
+  </div>
+ 
+  <!-- Email -->
+  <div class="form-main-input">
+    <div class="form-left">
+
+  <b>Email:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <div class="form-right">
+  <input type="email" id="email" name="email" placeholder="Enter your email" class="Etext" required><br>
+  <div id="emailError" class="error-message"></div><br>
+
+  </div>
+  </div>
+  </div>
+ 
+
+  <!-- Password -->
+  <div class="form-main-input">
+    <div class="form-left">
+  <b>Password:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <input type="password" id="password" name="password" placeholder="Enter your password" class="Ptext" required>
+  <h4 style="margin-left: 160px;"><input type="checkbox" onclick="visible()">Show Password </h4><br>
+  <!-- <input type="checkbox" onclick="myFunction()"><br> -->
+
+  
+  <div id="PPError" class="error-message"></div><br>
+
+ </div>
+ </div>
+
+  <!-- Confirm password -->
+  <div class="form-main-input">
+    <div class="form-left">
+  <b>Confirm Password:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <div class="form-right">
+  <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" class="Cptext" required><br>
+  <div id="passwordError" class="error-message"></div><br>
+
+  </div>
+  </div>
+  </div>
+ 
+
+  <!-- DOB -->
+  <div class="form-main-input">
+    <div class="form-left">
+  <b>Date of Birth:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <div class="form-right">
+  <input type="date" id="dob" name="dob"  class="Dtext" required><br>
+  <div id="dobError" class="error-message"></div><br>
+
+  </div>
+  </div>
+  </div>
+
+  <!-- Phone -->
+  <div class="form-main-input">
+    <div class="form-left">
+  <b>Phone Number:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <div class="form-right">
+  <input type="tel" id="phone" name="phone" placeholder="Phone number" class="Phtext" required><br>
+  <div id="phoneError" class="error-message"></div>
+
+  </div>
+  </div>
+  </div>
+
+  <div class="phoneText">
+  <p style="margin-left: 167px; color: rgb(142, 135, 135);">Your phone number won't be disclosed anywhere</p>
+  </div>
+
+
+  <!-- Height -->
+  <div class="form-main-input">
+    <div class="form-left">
+  <b>Height:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <div class="form-right">
+  <input type="number" id="height" name="height" placeholder="Please write your height in centimeters" class="Htext" required><br>
+  <div id="heightError" class="error-message"></div><br>
+
+  </div>
+  </div>
+  </div>
+
+
+  <!-- Weight -->
+  <div class="form-main-input">
+  <div class="form-left">
+  <b>Weight:<span>*</span></b>
+  </div>
+  <div class="form-text-error">
+  <div class="form-right">
+  <input type="number" id="weight" name="weight" placeholder="Please write your weight in kilograms" class="Wtext" required><br>
+  <div id="weightError" class="error-message"></div><br>
+
+  </div>
+  </div>
+  </div><br>
+
+<!-- Gender -->
+<div class="form-gender">
+  <div class="form-gender-right">
+   <b>Gender:<span>*</span></b> 
+   </div>
+
+   <div class="form-gender-left">
+   <div id="gender">
+        
+        <input type="radio" id="male" name="Gen" value="Male" style="margin-left: 90px;">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="Gen" value="Female">
+          <label for="female">Female</label>
+        </div>
+        </div><br><br>
+  
+        </div>
+
+        <div class="fieldText">
+        <p style="margin-left: 170px; color: rgb(192, 178, 178);"><span>*</span>Required Fields</p>
+        </div>
+      
+
+<!-- Submit button -->
+ 
+   <input type="submit" value="Register" style="width: 600px; height: 40px; background-color: rgb(8, 122, 167); color: white; border-radius: 4px;">
+   </div>
+
+   <div id="registrationMessage"></div>
+
+</form>
+ 
+<div id="registrationMessage"></div>
+  <div class="formTable">
+
+    <div id="formValuesTable" style="display: none;">
+        <h2><span>DATA ENTERED BY YOU </span></h2>
+        <table border="5">
+          <tr>
+            <th>Required Data</th>
+            <th>Value</th>
+          </tr>
+          <tr>
+            <td>First Name</td>
+            <td id="firstNameValue"></td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td id="lastNameValue"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td id="emailValue"></td>
+          </tr>
+          <tr>
+            <td>Date of Birth</td>
+            <td id="dobValue"></td>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+            <td id="phoneValue"></td>
+          </tr>
+          <tr>
+            <td>Height</td>
+            <td id="heightValue"></td>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td id="weightValue"></td>
+          </tr>
+          <!-- <tr>
+            <td>Gender</td>
+            <td id="genderValue"></td>
+          </tr> -->
+        </table>
+      </div>
+      </div>
+  
+ 
+<!-- <script src="index.js"></script> -->
+</body>
+</html> 
+
+
+ 
